@@ -62,7 +62,7 @@ jobs:
     - name: Build the docker image
       run: docker build . --file Dockerfile --tag ghcr.io/amtoth/cubix/cloudnative/demo:actions
     - name: Publishing the docker image
-      run: docker push ghcr.io/USERNAME/cubix/cloudnative/demo:actions
+      run: docker push ghcr.io/amtoth/cubix/cloudnative/demo:actions
     
 
 
